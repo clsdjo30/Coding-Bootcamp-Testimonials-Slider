@@ -25,17 +25,15 @@
       }
     </style>
   </head>
-  <body>
-    <main
-      class="flex justify-center items-center flex-col w-full h-screen static"
-    >
-
-    <!-- BG PATTERN HEADER -->
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="absolute -z-10 top-9"
-        width="697"
-        height="657"
+  <body class="container font-body w-full h-screen  mx-auto">
+    <main class="xl:w-3/4 lg:w-3/4 flex justify-center items-center h-screen mx-auto ">
+     <div class="absolute top-16 sm">
+        <!-- BG PATTERN HEADER -->
+      
+      <!-- width="697" height="657" -->
+      <svg xmlns="http://www.w3.org/2000/svg" 
+      class="h-80 sm:h-full "
+      viewBox="0 0 697 657"
       >
         <defs>
           <linearGradient
@@ -79,119 +77,8 @@
           />
         </g>
       </svg>
-
-      <div
-        class="flex justify-center items-center space-x-10 w-28 bg-white shadow-lg py-4 px-4  rounded-full absolute top-1/2 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-slate-100 duration-300"
-      >
-
-      <!-- SLIDER BUTTON -->
-        <img
-          id="slider-btn-prev"
-          class="cursor-pointer h-5"
-          src="./images/icon-prev.svg"
-          alt="previous button"
-        />
-        <img
-          id="slider-btn-next"
-          class="cursor-pointer h-5"
-          src="./images/icon-next.svg"
-          alt="next button"
-        />
-      </div>
-
-     <!-- TANYA SECTION   -->
-        <div class="" id="testimonials-content">
-          <section
-          class="flex flex-col justify-start items-center text-gray-600 body-font mt-11"
-        >
-          <img class="shadow-2xl animate-slider " src="./images/image-tanya.jpg" alt="" />
-          <div class="container px-5 py-24 mx-auto">
-            <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
-              <svg xmlns="http://www.w3.org/2000/svg" class="inline-block absolute bottom-96 left-80 fill-current h-28 w-28" viewBox="0 0 150 150">
-                <defs>
-                  <linearGradient
-                    id="a"
-                    x1="31.368%"
-                    x2="100%"
-                    y1="72.917%"
-                    y2="19.557%"
-                  >
-                    <stop offset="0%" stop-color="#9975D0" />
-                    <stop offset="100%" stop-color="#4A3FDB" />
-                  </linearGradient>
-                </defs>
-                <path
-                  fill="url(#a)"
-                  fill-rule="evenodd"
-                  d="M52.615 0L24.858 100H0V0h52.615zM120 0L92.243 100H67.385V0H120z"
-                  opacity=".15"
-                />
-              </svg>
-
-              <p class="text-3xl font-normal text-purple-900 tracking-widest mt-8 md:text-left md:mx-32 mb-8">
-                “ I’ve been interested in coding for a while but never taken the
-                jump, until now. I couldn’t recommend this course enough. I’m
-                now in the job of my dreams and so excited about the future. ”
-              </p>
-              <h2
-                class="text-2xl text-violet-900 font-bold md:pr-4"
-              >
-                Tanya Sinclair
-              </h2>
-              <p class="text-xl text-violet-300">UX Engineer</p>
-            </div>
-          </div>
-        </section>
-        </div>
-
-        <!-- JOHN SECTION -->
-        <div class="hidden" id="testimonials-content">
-          <section
-          class="flex flex-col justify-start items-center text-gray-600 body-font mt-11"
-        >
-          <img class="shadow-2xl animate-slider " src="./images/image-john.jpg" alt="" />
-          <div class="container px-5 py-24 mx-auto">
-            <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
-              <svg xmlns="http://www.w3.org/2000/svg" class="inline-block absolute bottom-96 left-80 fill-current h-28 w-28" viewBox="0 0 150 150">
-                <defs>
-                  <linearGradient
-                    id="a"
-                    x1="31.368%"
-                    x2="100%"
-                    y1="72.917%"
-                    y2="19.557%"
-                  >
-                    <stop offset="0%" stop-color="#9975D0" />
-                    <stop offset="100%" stop-color="#4A3FDB" />
-                  </linearGradient>
-                </defs>
-                <path
-                  fill="url(#a)"
-                  fill-rule="evenodd"
-                  d="M52.615 0L24.858 100H0V0h52.615zM120 0L92.243 100H67.385V0H120z"
-                  opacity=".15"
-                />
-              </svg>
-
-              <p class="text-3xl font-normal text-purple-900 tracking-widest mt-8 md:text-left md:mx-32 mb-8">
-                “ If you want to lay the best foundation possible I’d recommend
-              taking this course. The depth the instructors go into is
-              incredible. I now feel so confident about starting up as a
-              professional developer. ”
-              </p>
-              <h2
-                class="text-2xl text-violet-900 font-bold md:pr-4"
-              >
-              John Tarkpor
-              </h2>
-              <p class="text-xl text-violet-300">Front-end Developer</p>
-            </div>
-          </div>
-        </section>
-        </div>
-
-        <!-- FOOTER BG PATTERN -->
-      <svg
+    <!-- FOOTER BG PATTERN -->
+      <!-- <svg
         xmlns="http://www.w3.org/2000/svg"
         class="min-w-full absolute bottom-0 left-0"
       >
@@ -200,7 +87,118 @@
           fill-rule="evenodd"
           d="M610 154C469.493 123.42 358.432 86.087 276.818 42S102.93-11.42 0 14v140h610z"
         />
-      </svg>
+      </svg> -->
+     </div>
+
+     
+      <!-- TANYA SECTION   -->
+     
+       
+        <section class="animate-slider mx-1 " id="testimonials-content">
+
+
+          
+          <div class="sm:flex-row-reverse flex flex-col justify-center items-center">
+              <img
+                class="shadow-2xl animate-slider w-4/6 relative -top-10"
+                src="./images/image-tanya.jpg"
+                alt=""
+              />
+              <div class="flex flex-col justify-center items-center">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-10 w-10 relative top-14"
+                viewBox="0 0 120 120"
+              >
+                <defs>
+                  <linearGradient
+                    id="a"
+                    x1="31.368%"
+                    x2="100%"
+                    y1="72.917%"
+                    y2="19.557%"
+                  >
+                    <stop offset="0%" stop-color="#9975D0" />
+                    <stop offset="100%" stop-color="#4A3FDB" />
+                  </linearGradient>
+                </defs>
+                <path
+                  fill="url(#a)"
+                  fill-rule="evenodd"
+                  d="M52.615 0L24.858 100H0V0h52.615zM120 0L92.243 100H67.385V0H120z"
+                  opacity=".15"
+                />
+              </svg>
+
+              <p class="font-light text-lg text-purple-900 px-14 tracking-wider text-center mt-6">
+                “ I’ve been interested in coding for a while but never taken the
+                jump, until now. I couldn’t recommend this course enough. I’m
+                now in the job of my dreams and so excited about the future. ”
+              </p>
+              <h2 class="text-violet-900 mt-4">Tanya Sinclair</h2>
+              <h3 class="text-violet-300">UX Engineer</h3>
+              </div>
+            </div>
+          </section>
+      
+    
+
+      <!-- JOHN SECTION -->
+      <!-- <div class="hidden" id="testimonials-content">
+        <section
+          class="flex flex-col justify-start items-center text-gray-600 mt-11"
+        >
+          <img
+            class="shadow-2xl animate-slider"
+            src="./images/image-john.jpg"
+            alt=""
+          />
+          <div class="container px-5 py-24 mx-auto animate-slider">
+            <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="inline-block absolute bottom-96 left-80 fill-current h-28 w-28"
+                viewBox="0 0 150 150"
+              >
+                <defs>
+                  <linearGradient
+                    id="a"
+                    x1="31.368%"
+                    x2="100%"
+                    y1="72.917%"
+                    y2="19.557%"
+                  >
+                    <stop offset="0%" stop-color="#9975D0" />
+                    <stop offset="100%" stop-color="#4A3FDB" />
+                  </linearGradient>
+                </defs>
+                <path
+                  fill="url(#a)"
+                  fill-rule="evenodd"
+                  d="M52.615 0L24.858 100H0V0h52.615zM120 0L92.243 100H67.385V0H120z"
+                  opacity=".15"
+                />
+              </svg>
+
+              <p
+                class="text-3xl font-normal text-purple-900 tracking-widest mt-8 md:text-left md:mx-32 mb-8"
+              >
+                “ If you want to lay the best foundation possible I’d recommend
+                taking this course. The depth the instructors go into is
+                incredible. I now feel so confident about starting up as a
+                professional developer. ”
+              </p>
+              <h2 class="text-2xl text-violet-900 font-bold md:pr-4">
+                John Tarkpor
+              </h2>
+              <p class="text-xl text-violet-300">Front-end Developer</p>
+            </div>
+          </div>
+        </section>
+      </div> -->
+
+  
+      
     </main>
 
     <!-- <div class="attribution">

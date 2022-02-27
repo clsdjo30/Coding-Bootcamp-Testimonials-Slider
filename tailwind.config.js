@@ -20,7 +20,7 @@ module.exports = {
       }
     },
     animation: {
-      slider: 'slider 1s ease-in'
+      slider: 'slider 0.5s ease-in'
     }
 
 
